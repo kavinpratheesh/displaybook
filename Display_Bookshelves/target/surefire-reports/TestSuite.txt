@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 321.471 s <<< FAILURE! - in TestSuite
+testOneForBookshelves(com.Hackatone.TestClasses.GetBookshelves)  Time elapsed: 74.819 s  <<< FAILURE!
+java.lang.AssertionError: 
+Element <input id="filters_storage_type_Open" name="filters[storage_type][]" type="checkbox"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2KNJHJ9', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 5800, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3c9432a-e7fa-4dbc-bf92-fe4b02d6c5df
+	at com.Hackatone.TestClasses.GetBookshelves.testOneForBookshelves(GetBookshelves.java:34)
+
