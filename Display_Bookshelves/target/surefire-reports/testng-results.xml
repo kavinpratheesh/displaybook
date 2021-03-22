@@ -2,52 +2,32 @@
 <testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-22T04:27:14Z" name="Suite" finished-at="2021-03-22T04:31:40Z" duration-ms="266594">
+  <suite started-at="2021-03-22T08:51:06Z" name="Suite" finished-at="2021-03-22T08:54:48Z" duration-ms="221738">
     <groups>
     </groups>
-    <test started-at="2021-03-22T04:27:14Z" name="exicuteTestCases" finished-at="2021-03-22T04:31:40Z" duration-ms="266594">
+    <test started-at="2021-03-22T08:51:06Z" name="exicuteTestCases" finished-at="2021-03-22T08:54:48Z" duration-ms="221738">
       <class name="com.Hackatone.TestClasses.GiftCard">
-        <test-method signature="testForGiftCards()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@6f31df32]" started-at="2021-03-22T04:30:35Z" name="testForGiftCards" finished-at="2021-03-22T04:31:34Z" duration-ms="59352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForGiftCards -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@6f31df32]" started-at="2021-03-22T04:31:34Z" name="afterTest" finished-at="2021-03-22T04:31:34Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.Hackatone.TestClasses.GiftCard -->
-      <class name="com.Hackatone.TestClasses.GetHomeItems">
-        <test-method signature="getHomeListItems_one()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@2047981]" started-at="2021-03-22T04:29:07Z" name="getHomeListItems_one" finished-at="2021-03-22T04:29:53Z" duration-ms="45541" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getHomeListItems_one -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@2047981]" started-at="2021-03-22T04:29:53Z" name="afterTest" finished-at="2021-03-22T04:29:53Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.Hackatone.TestClasses.GetHomeItems -->
-      <class name="com.Hackatone.TestClasses.GetBookshelves">
-        <test-method signature="testOneForBookshelves()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@6c8fe7a4]" started-at="2021-03-22T04:27:14Z" name="testOneForBookshelves" finished-at="2021-03-22T04:29:04Z" duration-ms="110297" status="FAIL">
+        <test-method signature="testForGiftCards()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@6c8fe7a4]" started-at="2021-03-22T08:53:41Z" name="testForGiftCards" finished-at="2021-03-22T08:54:44Z" duration-ms="62057" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='close-reveal-modal hide-mobile'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-2KNJHJ9', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1508, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1cc9b4e2-a940-4041-a44b-c840bb4becb8]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8180, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56b8092f-141a-4db1-a02e-4cde682a03c5]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='close-reveal-modal hide-mobile'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-2KNJHJ9', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1508, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1cc9b4e2-a940-4041-a44b-c840bb4becb8
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8180, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56b8092f-141a-4db1-a02e-4cde682a03c5
 at org.testng.Assert.fail(Assert.java:96)
 at com.Hackatone.Base.BaseUI.reportFail(BaseUI.java:353)
 at com.Hackatone.Base.BaseUI.openURL(BaseUI.java:112)
-at com.Hackatone.TestClasses.GetBookshelves.testOneForBookshelves(GetBookshelves.java:19)
+at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:21)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -81,26 +61,46 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOneForBookshelves -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@6c8fe7a4]" started-at="2021-03-22T04:29:05Z" name="afterTest" finished-at="2021-03-22T04:29:07Z" duration-ms="2441" status="PASS">
+        </test-method> <!-- testForGiftCards -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@6c8fe7a4]" started-at="2021-03-22T08:54:44Z" name="afterTest" finished-at="2021-03-22T08:54:45Z" duration-ms="1640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@6c8fe7a4]" started-at="2021-03-22T04:31:34Z" name="endReport" finished-at="2021-03-22T04:31:40Z" duration-ms="5764" status="PASS">
+      </class> <!-- com.Hackatone.TestClasses.GiftCard -->
+      <class name="com.Hackatone.TestClasses.GetHomeItems">
+        <test-method signature="getHomeListItems_one()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@8f40022]" started-at="2021-03-22T08:52:21Z" name="getHomeListItems_one" finished-at="2021-03-22T08:52:56Z" duration-ms="34903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomeListItems_one -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@8f40022]" started-at="2021-03-22T08:52:56Z" name="afterTest" finished-at="2021-03-22T08:52:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Hackatone.TestClasses.GetHomeItems -->
+      <class name="com.Hackatone.TestClasses.GetBookshelves">
+        <test-method signature="testOneForBookshelves()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@75d366c2]" started-at="2021-03-22T08:51:07Z" name="testOneForBookshelves" finished-at="2021-03-22T08:52:18Z" duration-ms="71642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneForBookshelves -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@75d366c2]" started-at="2021-03-22T08:52:21Z" name="afterTest" finished-at="2021-03-22T08:52:21Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@75d366c2]" started-at="2021-03-22T08:54:45Z" name="endReport" finished-at="2021-03-22T08:54:48Z" duration-ms="2394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@2047981]" started-at="2021-03-22T04:31:40Z" name="endReport" finished-at="2021-03-22T04:31:40Z" duration-ms="559" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@8f40022]" started-at="2021-03-22T08:54:48Z" name="endReport" finished-at="2021-03-22T08:54:48Z" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.Hackatone.TestClasses.GetBookshelves -->
       <class name="com.Hackatone.TestClasses.GetStudyChair">
-        <test-method signature="testForStudyChairs()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@2ad99cf3]" started-at="2021-03-22T04:29:53Z" name="testForStudyChairs" finished-at="2021-03-22T04:30:35Z" duration-ms="41874" status="PASS">
+        <test-method signature="testForStudyChairs()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@5232e3f1]" started-at="2021-03-22T08:52:56Z" name="testForStudyChairs" finished-at="2021-03-22T08:53:41Z" duration-ms="45455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForStudyChairs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@2ad99cf3]" started-at="2021-03-22T04:30:35Z" name="afterTest" finished-at="2021-03-22T04:30:35Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@5232e3f1]" started-at="2021-03-22T08:53:41Z" name="afterTest" finished-at="2021-03-22T08:53:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

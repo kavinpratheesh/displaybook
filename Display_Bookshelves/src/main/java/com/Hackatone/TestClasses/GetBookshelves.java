@@ -35,7 +35,7 @@ public class GetBookshelves extends BaseUI
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 		Thread.sleep(3000);
 		//waitLoad(2);
-		chooseManualPriceWithSlider("price_element_Xpath","price_drage_Xpath");	 // Update price range using slider
+		//chooseManualPriceWithSlider("price_element_Xpath","price_drage_Xpath");	 // Update price range using slider
 		waitLoad(2);													// wait for two seconds
 		excludeChekBox("exclude_stock_chekbox_Id");
 		waitLoad(1);															// wait for two seconds
