@@ -1,0 +1,15 @@
+# Created on 2021-03-19T20:38:30.796
+log4j:WARN No appenders could be found for logger (org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor).
+
+# Created on 2021-03-19T20:38:30.797
+log4j:WARN Please initialize the log4j system properly.
+
+# Created on 2021-03-19T20:38:30.798
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+# Created on 2021-03-19T20:38:32.099
+[AppClassLoader@6ff3c5b5] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created on 2021-03-19T20:38:32.120
+[AppClassLoader@6ff3c5b5] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+

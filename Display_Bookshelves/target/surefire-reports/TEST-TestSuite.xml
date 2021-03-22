@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="276.476" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Kavin\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\Kavin\git\displaybook\Display_Bookshelves\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kavin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="user.name" value="Kavin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kavin\AppData\Local\Temp\"/>
+    <property name="java.version" value="15"/>
+    <property name="user.dir" value="C:\Users\Kavin\git\displaybook\Display_Bookshelves"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Kavin\git\displaybook\Display_Bookshelves"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-15/bin/server;C:/Program Files/Java/jdk-15/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\apache-maven-3.6.3\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Kavin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Kavin\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="classworlds.conf" value="C:\Users\Kavin\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf12934233123835740937.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="testOneForBookshelves" classname="com.Hackatone.TestClasses.GetBookshelves" time="110.34">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class=&apos;close-reveal-modal hide-mobile&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2KNJHJ9&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1508, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1cc9b4e2-a940-4041-a44b-c840bb4becb8" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='close-reveal-modal hide-mobile'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2KNJHJ9', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 1508, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1cc9b4e2-a940-4041-a44b-c840bb4becb8
+	at com.Hackatone.TestClasses.GetBookshelves.testOneForBookshelves(GetBookshelves.java:19)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1616387236746	geckodriver	INFO	Listening on 127.0.0.1:21908
+1616387238775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kavin\\AppData\\Local\\Temp\\rust_mozprofileagnmNc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 1508, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1616387286067	Marionette	INFO	Listening on port 64133
+1616387286645	Marionette	WARN	TLS certificate errors will be ignored for this session
+Mar 22, 2021 9:58:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://www.urbanladder.com/, line 69: ReferenceError: $ is not defined
+JavaScript error: https://www.urbanladder.com/, line 82: ReferenceError: ulHelper is not defined
+JavaScript error: https://www.urbanladder.com/, line 126: ReferenceError: $ is not defined
+JavaScript error: https://www.urbanladder.com/, line 138: ReferenceError: $ is not defined
+JavaScript error: https://www.urbanladder.com/, line 1460: ReferenceError: $ is not defined
+JavaScript error: https://www.ulcdn.net/assets/spree/frontend/product_video-92027d22528cf19a2971b8afe3e4e435.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://www.ulcdn.net/assets/spree/frontend/homepage-0a273dbb4d6252aadf57c6a18182888a.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://www.urbanladder.com/, line 1576: ReferenceError: $ is not defined
+JavaScript error: https://www.urbanladder.com/, line 1591: ReferenceError: $ is not defined
+JavaScript error: https://www.ulcdn.net/assets/spree/frontend/all_styleguide-57f3ddc31dec00dba3a649da3b74bb80.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://www.urbanladder.com/, line 2631: ReferenceError: $ is not defined
+JavaScript error: https://www.urbanladder.com/, line 2644: ReferenceError: Spree is not defined
+]]></system-err>
+  </testcase>
+  <testcase name="getHomeListItems_one" classname="com.Hackatone.TestClasses.GetHomeItems" time="45.543"/>
+  <testcase name="testForStudyChairs" classname="com.Hackatone.TestClasses.GetStudyChair" time="41.873"/>
+  <testcase name="testForGiftCards" classname="com.Hackatone.TestClasses.GiftCard" time="59.355"/>
+</testsuite>
