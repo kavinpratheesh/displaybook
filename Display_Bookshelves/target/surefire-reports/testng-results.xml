@@ -2,54 +2,54 @@
 <testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-23T03:20:15Z" name="Suite" finished-at="2021-03-23T03:24:04Z" duration-ms="229173">
+  <suite started-at="2021-03-23T18:01:21 IST" name="Suite" finished-at="2021-03-23T18:04:06 IST" duration-ms="165084">
     <groups>
     </groups>
-    <test started-at="2021-03-23T03:20:15Z" name="exicuteTestCases" finished-at="2021-03-23T03:24:04Z" duration-ms="229173">
+    <test started-at="2021-03-23T18:01:21 IST" name="exicuteTestCases" finished-at="2021-03-23T18:04:06 IST" duration-ms="165084">
       <class name="com.Hackatone.TestClasses.GiftCard">
-        <test-method signature="testForGiftCards()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@5ae15]" started-at="2021-03-23T03:23:06Z" name="testForGiftCards" finished-at="2021-03-23T03:24:01Z" duration-ms="55331" status="PASS">
+        <test-method signature="testForGiftCards()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@4f2b503c]" started-at="2021-03-23T18:03:10 IST" name="testForGiftCards" finished-at="2021-03-23T18:04:03 IST" duration-ms="53060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForGiftCards -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@5ae15]" started-at="2021-03-23T03:24:01Z" name="afterTest" finished-at="2021-03-23T03:24:01Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@4f2b503c]" started-at="2021-03-23T18:04:03 IST" name="afterTest" finished-at="2021-03-23T18:04:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.Hackatone.TestClasses.GiftCard -->
       <class name="com.Hackatone.TestClasses.GetHomeItems">
-        <test-method signature="getHomeListItems_one()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@59838256]" started-at="2021-03-23T03:21:56Z" name="getHomeListItems_one" finished-at="2021-03-23T03:22:29Z" duration-ms="32620" status="PASS">
+        <test-method signature="getHomeListItems_one()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@52af26ee]" started-at="2021-03-23T18:02:13 IST" name="getHomeListItems_one" finished-at="2021-03-23T18:02:36 IST" duration-ms="23480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getHomeListItems_one -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@59838256]" started-at="2021-03-23T03:22:29Z" name="afterTest" finished-at="2021-03-23T03:22:29Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@52af26ee]" started-at="2021-03-23T18:02:36 IST" name="afterTest" finished-at="2021-03-23T18:02:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.Hackatone.TestClasses.GetHomeItems -->
-      <class name="com.Hackatone.TestClasses.GetBookshelves">
-        <test-method signature="testOneForBookshelves()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@1859ffda]" started-at="2021-03-23T03:20:15Z" name="testOneForBookshelves" finished-at="2021-03-23T03:21:56Z" duration-ms="100858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOneForBookshelves -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@1859ffda]" started-at="2021-03-23T03:21:56Z" name="afterTest" finished-at="2021-03-23T03:21:56Z" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@1859ffda]" started-at="2021-03-23T03:24:01Z" name="endReport" finished-at="2021-03-23T03:24:04Z" duration-ms="2864" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@52af26ee]" started-at="2021-03-23T18:04:06 IST" name="endReport" finished-at="2021-03-23T18:04:06 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetHomeItems@59838256]" started-at="2021-03-23T03:24:04Z" name="endReport" finished-at="2021-03-23T03:24:04Z" duration-ms="276" status="PASS">
+      </class> <!-- com.Hackatone.TestClasses.GetHomeItems -->
+      <class name="com.Hackatone.TestClasses.GetBookshelves">
+        <test-method signature="testOneForBookshelves()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@306e95ec]" started-at="2021-03-23T18:01:21 IST" name="testOneForBookshelves" finished-at="2021-03-23T18:02:13 IST" duration-ms="51752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneForBookshelves -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@306e95ec]" started-at="2021-03-23T18:02:13 IST" name="afterTest" finished-at="2021-03-23T18:02:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetBookshelves@306e95ec]" started-at="2021-03-23T18:04:03 IST" name="endReport" finished-at="2021-03-23T18:04:06 IST" duration-ms="2923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.Hackatone.TestClasses.GetBookshelves -->
       <class name="com.Hackatone.TestClasses.GetStudyChair">
-        <test-method signature="testForStudyChairs()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@131a7516]" started-at="2021-03-23T03:22:29Z" name="testForStudyChairs" finished-at="2021-03-23T03:23:06Z" duration-ms="36393" status="PASS">
+        <test-method signature="testForStudyChairs()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@6fd83fc1]" started-at="2021-03-23T18:02:36 IST" name="testForStudyChairs" finished-at="2021-03-23T18:03:10 IST" duration-ms="33612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForStudyChairs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@131a7516]" started-at="2021-03-23T03:23:06Z" name="afterTest" finished-at="2021-03-23T03:23:06Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@6fd83fc1]" started-at="2021-03-23T18:03:10 IST" name="afterTest" finished-at="2021-03-23T18:03:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

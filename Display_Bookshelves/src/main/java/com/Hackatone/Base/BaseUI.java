@@ -56,8 +56,8 @@ public class BaseUI {
 
 			if (browserName.equalsIgnoreCase("Chrome")) {
 
-				System.setProperty("webdriver.chrome.driver","./src/test/resources/drivers/chromedriver.exe");
-				driver = new ChromeDriver();
+				System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver.exe");
+				driver=new ChromeDriver();
 			} else  {
 				
 				System.setProperty("webdriver.gecko.driver","./src/test/resources/drivers/geckodriver.exe");
@@ -150,10 +150,10 @@ public class BaseUI {
 
 	public void clickAndSelectWebElement(String xpathKey, String idKey) {
 		try {
+			WebDriverWait wait=new WebDriverWait(driver, 20);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[normalize-space()='Storage Type']")));
 			getElement(xpathKey).click();
-			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 			driver.findElement(By.xpath("//input[@id='filters_storage_type_Open']")).click();
-			//getElement(idKey).click();
 			reportPass("Element selected successfully from dropdown :: " + idKey);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
@@ -172,19 +172,26 @@ public class BaseUI {
 
 	public void chooseManualPriceWithSlider(String xpathKey, String sliderXpath) throws InterruptedException {
 		try {
-			getElement(xpathKey).click();
-			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-			
+			WebElement price = driver.findElement(By.xpath("//div[normalize-space()='Price']"));
+
 			Actions act = new Actions(driver);
-			WebElement slider =driver.findElement(By.xpath("//div[@class='noUi-handle noUi-handle-upper']"));//
-			//Action action = (Action) act.dragAndDropBy(slider, -150, 0).build();
-		    //((Actions) action).perform();
-			//act.dragAndDropBy(slider,-100,0).build().perform();
-			act.clickAndHold(slider);
+			act.clickAndHold(price);
 			Thread.sleep(2000);
-			act.moveByOffset(-207, 0);
-			act.release().build().perform();
-			slider.click();
+			act.build().perform();
+			Thread.sleep(2000);
+			Actions move = new Actions(driver);
+			WebElement sliderA = driver.findElement(By.xpath(
+					"//div[@class='noUi-handle noUi-handle-lower']"));
+			
+			move.dragAndDropBy(sliderA, 0, 0).click();
+			move.build().perform();
+			
+			WebElement sliderB = driver.findElement(By.xpath(
+					"//div[@class='noUi-handle noUi-handle-upper']"));
+
+			move.dragAndDropBy(sliderB, -206, 0).click();
+			move.build().perform();
+		
 			Thread.sleep(2000);
 			reportPass("Prices Choosen Successfully using slider");
 
@@ -235,7 +242,7 @@ public class BaseUI {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
@@ -250,11 +257,6 @@ public class BaseUI {
 	public void validateResult(String validate_Xpath) {
 		try {
 			if (!getElement(validate_Xpath).isDisplayed()) {
-			/*//	 String error_text = driver.findElement(By.xpath("")).getText();
-				reportPass("Gift has been created successfully :: Verify the Details in attached ScreenShot");
-
-			} else {*/
-				//Thread.sleep(1000);
 				driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 				takeScreenShotForValidation();
 				System.out.println("Screenshot taken");
@@ -296,7 +298,7 @@ public class BaseUI {
 				logger.log(Status.INFO, "Locator Identidied : " + locatorKey);
 			} else {
 				reportFail("Failing the Testcase, Invalid Locator " + locatorKey);
-				// Assert.fail("Failing The Test Cases: " + locatorKey);
+				
 			}
 		} catch (Exception e) {
 

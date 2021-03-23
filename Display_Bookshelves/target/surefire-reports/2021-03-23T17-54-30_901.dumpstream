@@ -1,0 +1,9 @@
+# Created on 2021-03-23T17:54:30.904
+log4j:WARN No appenders could be found for logger (org.aspectj.weaver.loadtime.ClassLoaderWeavingAdaptor).
+
+# Created on 2021-03-23T17:54:30.905
+log4j:WARN Please initialize the log4j system properly.
+
+# Created on 2021-03-23T17:54:30.906
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+

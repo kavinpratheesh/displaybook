@@ -18,7 +18,7 @@ public class GetBookshelves extends BaseUI
 		invokeBrowser();													// Invoke the browser
 		openURL("websiteURL");													// Open Application
 		
-		//Thread.sleep(2000);				
+		waitLoad(2);		
 		
 		enterText("searchbox_Id","Bookshelves");								// Search Bookshelves on searchbox
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
@@ -26,16 +26,12 @@ public class GetBookshelves extends BaseUI
 					
 		hitEnter("searchbox_Id");												// Hit enter to go on next search page
 		
-		waitLoad(2);	
-		//waitLoad(2);
-		//chooseManualPriceWithSlider("price_element_Xpath","price_drage_Xpath");
-		//driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		Thread.sleep(3000);
+		waitLoad(3);	
+		
 		clickAndSelectWebElement("storage_type_Xpath","openchekbox_Id");		// Select storage type from list
-		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		Thread.sleep(3000);
-		//waitLoad(2);
-		//chooseManualPriceWithSlider("price_element_Xpath","price_drage_Xpath");	 // Update price range using slider
+
+		waitLoad(2);
+		chooseManualPriceWithSlider("price_element_Xpath","price_drage_Xpath");	 // Update price range using slider
 		waitLoad(2);													// wait for two seconds
 		excludeChekBox("exclude_stock_chekbox_Id");
 		waitLoad(1);															// wait for two seconds

@@ -42,7 +42,7 @@ public class GiftCard extends BaseUI
 		enterText("recipient_name_Xpath","Nagapriyadharsini");
 		
 		Thread.sleep(1000);
-		enterText("recipient_email_Xpath","");
+		enterText("recipient_email_Xpath","hai");
 		
 		Thread.sleep(1000);
 		enterText("sender_name_Xpath","Gowtham");
@@ -58,7 +58,7 @@ public class GiftCard extends BaseUI
 		
 		Thread.sleep(2000);
 		elementClick("confirm_Xpath");
-		//Thread.sleep(2000);
+		Thread.sleep(2000);
 
 	    validateResult("validate_payment_Xpath");
 		
