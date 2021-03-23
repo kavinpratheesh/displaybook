@@ -222,7 +222,7 @@ public class BaseUI {
 			driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 			select.selectByIndex(2);
-			reportPass(xpathKey + " : Mouse Hower and Click Successfully");
+			reportPass(xpathKey + " : Mouse Hover and Click Successfully");
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -254,9 +254,12 @@ public class BaseUI {
 				reportPass("Gift has been created successfully :: Verify the Details in attached ScreenShot");
 
 			} else {*/
-				//reportFail("Wrong information Fed-Up :: Verify The Details in attached ScreenShot");
+				//Thread.sleep(1000);
+				driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 				takeScreenShotForValidation();
 				System.out.println("Screenshot taken");
+				//reportFail("Wrong information Fed-Up :: Verify The Details in attached ScreenShot");
+				
 			}
 
 		} catch (Exception e) {

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="exicuteTestCases(failed)" verbose="0">
     <classes>
-      <class name="com.Hackatone.TestClasses.GiftCard">
+      <class name="com.Hackatone.TestClasses.GetBookshelves">
         <methods>
+          <include name="testOneForBookshelves"/>
           <include name="endReport"/>
           <include name="afterTest"/>
-          <include name="testForGiftCards"/>
         </methods>
-      </class> <!-- com.Hackatone.TestClasses.GiftCard -->
+      </class> <!-- com.Hackatone.TestClasses.GetBookshelves -->
     </classes>
   </test> <!-- exicuteTestCases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

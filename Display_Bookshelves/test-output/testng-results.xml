@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-22T14:09:53 IST" name="Default suite" finished-at="2021-03-22T14:11:10 IST" duration-ms="77207">
+  <suite started-at="2021-03-23T11:05:04 IST" name="Default suite" finished-at="2021-03-23T11:06:13 IST" duration-ms="69328">
     <groups>
     </groups>
-    <test started-at="2021-03-22T14:09:53 IST" name="Default test" finished-at="2021-03-22T14:11:10 IST" duration-ms="77207">
-      <class name="com.Hackatone.TestClasses.GetStudyChair">
-        <test-method signature="testForStudyChairs()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@5114c8a1]" started-at="2021-03-22T14:09:53 IST" name="testForStudyChairs" finished-at="2021-03-22T14:11:05 IST" duration-ms="71235" status="PASS">
+    <test started-at="2021-03-23T11:05:04 IST" name="Default test" finished-at="2021-03-23T11:06:13 IST" duration-ms="69328">
+      <class name="com.Hackatone.TestClasses.GiftCard">
+        <test-method signature="testForGiftCards()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@13bdf540]" started-at="2021-03-23T11:05:04 IST" name="testForGiftCards" finished-at="2021-03-23T11:06:11 IST" duration-ms="66609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testForStudyChairs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@5114c8a1]" started-at="2021-03-22T14:11:05 IST" name="afterTest" finished-at="2021-03-22T14:11:05 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- testForGiftCards -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@13bdf540]" started-at="2021-03-23T11:06:11 IST" name="afterTest" finished-at="2021-03-23T11:06:11 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GetStudyChair@5114c8a1]" started-at="2021-03-22T14:11:06 IST" name="endReport" finished-at="2021-03-22T14:11:10 IST" duration-ms="4740" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.Hackatone.TestClasses.GiftCard@13bdf540]" started-at="2021-03-23T11:06:11 IST" name="endReport" finished-at="2021-03-23T11:06:13 IST" duration-ms="2122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.Hackatone.TestClasses.GetStudyChair -->
+      </class> <!-- com.Hackatone.TestClasses.GiftCard -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

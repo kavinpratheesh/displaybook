@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 234.893 s <<< FAILURE! - in TestSuite
-testForGiftCards(com.Hackatone.TestClasses.GiftCard)  Time elapsed: 62.088 s  <<< FAILURE!
-java.lang.AssertionError: 
-Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='close-reveal-modal hide-mobile'] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-2KNJHJ9', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8180, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56b8092f-141a-4db1-a02e-4cde682a03c5
-	at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:21)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 236.396 s - in TestSuite

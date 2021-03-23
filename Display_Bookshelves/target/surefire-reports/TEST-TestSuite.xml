@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="234.893" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="236.396" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -51,35 +51,12 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15+36-1562"/>
-    <property name="classworlds.conf" value="C:\Users\Kavin\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf274203098285509500.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Kavin\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17980173681152514013.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testOneForBookshelves" classname="com.Hackatone.TestClasses.GetBookshelves" time="71.642"/>
-  <testcase name="getHomeListItems_one" classname="com.Hackatone.TestClasses.GetHomeItems" time="34.9"/>
-  <testcase name="testForStudyChairs" classname="com.Hackatone.TestClasses.GetStudyChair" time="45.456"/>
-  <testcase name="testForGiftCards" classname="com.Hackatone.TestClasses.GiftCard" time="62.088">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class=&apos;close-reveal-modal hide-mobile&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2KNJHJ9&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8180, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 56b8092f-141a-4db1-a02e-4cde682a03c5" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class='close-reveal-modal hide-mobile'] (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-2KNJHJ9', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 8180, moz:profile: C:\Users\Kavin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56b8092f-141a-4db1-a02e-4cde682a03c5
-	at com.Hackatone.TestClasses.GiftCard.testForGiftCards(GiftCard.java:21)
-</failure>
-    <system-err><![CDATA[1616403222130	geckodriver	INFO	Listening on 127.0.0.1:36458
-1616403222799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Kavin\\AppData\\Local\\Temp\\rust_mozprofilee1LLHC"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616403232249	Marionette	INFO	Listening on port 59143
-1616403232877	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 22, 2021 2:23:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-JavaScript error: https://www.urbanladder.com/, line 2644: ReferenceError: Spree is not defined
-JavaScript error: https://www.ulcdn.net/assets/spree/frontend/all_head-61e47948af61e903a0d40c1911e50226.js, line 49: TypeError: o.foundation is not a function
-JavaScript warning: https://cdn.atomex.net/static/js/pxs/6212/ast.js, line 24: unreachable code after return statement
-JavaScript warning: https://assetscdn-wchat.in.freshchat.com/static/assets/vendor-5db45966ec38148c3f69140b9e076db1.js, line 6905: unreachable code after return statement
-]]></system-err>
-  </testcase>
+  <testcase name="testOneForBookshelves" classname="com.Hackatone.TestClasses.GetBookshelves" time="100.872"/>
+  <testcase name="getHomeListItems_one" classname="com.Hackatone.TestClasses.GetHomeItems" time="32.619"/>
+  <testcase name="testForStudyChairs" classname="com.Hackatone.TestClasses.GetStudyChair" time="36.394"/>
+  <testcase name="testForGiftCards" classname="com.Hackatone.TestClasses.GiftCard" time="55.34"/>
 </testsuite>
