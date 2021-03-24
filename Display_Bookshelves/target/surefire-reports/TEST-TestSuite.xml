@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="217.984" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="296.959" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -51,12 +51,12 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15+36-1562"/>
-    <property name="classworlds.conf" value="C:\Users\Kavin\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11232300410281554127.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Kavin\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5097176804602481911.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testOneForBookshelves" classname="testClasses.GetBookshelves" time="62.674"/>
-  <testcase name="getHomeListItems_one" classname="testClasses.GetHomeItems" time="36.413"/>
-  <testcase name="testForStudyChairs" classname="testClasses.GetStudyChair" time="44.319"/>
-  <testcase name="testForGiftCards" classname="testClasses.GiftCard" time="69.118"/>
+  <testcase name="testOneForBookshelves" classname="testClasses.GetBookshelves" time="108.519"/>
+  <testcase name="getHomeListItems_one" classname="testClasses.GetHomeItems" time="56.294"/>
+  <testcase name="testForStudyChairs" classname="testClasses.GetStudyChair" time="52.206"/>
+  <testcase name="testForGiftCards" classname="testClasses.GiftCard" time="74.947"/>
 </testsuite>
