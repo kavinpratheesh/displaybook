@@ -19,10 +19,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
-//import org.openqa.selenium.opera.OperaDriver;
-//import org.openqa.selenium.remote.DesiredCapabilities;
-//import org.openqa.selenium.remote.RemoteWebDriver;
-//import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -34,7 +30,6 @@ import org.testng.asserts.SoftAssert;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-//import com.datadriven.framework.utils.DateUtils;
 
 import utils.ExtentReportManager;
 
@@ -59,23 +54,11 @@ public class BaseUI {
 
 				System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 				driver=new ChromeDriver();
-			} else  {
+			} else if(browserName.equalsIgnoreCase("firefox")) {
 				
 				System.setProperty("webdriver.gecko.driver","./drivers/geckodriver.exe");
 				driver = new FirefoxDriver();
-			}/* else if (browserName.equalsIgnoreCase("Opera")) {
-
-				System.setProperty("webdriver.opera.driver","./src/test/resources/drivers/operadriver.exe");
-				driver = new OperaDriver();
-			} else if (browserName.equalsIgnoreCase("remote")) {
-				String Node = "http:192.168.1.100:5566/wd/hub";
-				DesiredCapabilities cap = DesiredCapabilities.chrome();
-				cap.setBrowserName("chrome");
-
-				driver = new RemoteWebDriver(new URL(Node), cap);
-			} else {
-				driver = new SafariDriver();
-			}*/
+			}
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -107,8 +90,6 @@ public class BaseUI {
 			WebDriverWait wait=new WebDriverWait(driver, 20);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='close-reveal-modal hide-mobile']")));
 			driver.findElement(By.xpath("//a[@class='close-reveal-modal hide-mobile']")).click();//closing the pop-up
-			
-			//a[@class='close-reveal-modal hide-mobile']
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -372,7 +353,6 @@ public class BaseUI {
 	/****************** Capture Screen Shot ***********************/
 	public void takeScreenShotForValidation() {
 		TakesScreenshot takeScreenShot = (TakesScreenshot) driver;
-		//Thread.sleep(2000);
 		File sourceFile = takeScreenShot.getScreenshotAs(OutputType.FILE);
 		String capture_img = utils.DateUtils.getTimeStamp();
 		File destFile = new File(System.getProperty("user.dir") + "//ScreenShot//" + capture_img + ".png");
@@ -390,7 +370,7 @@ public class BaseUI {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		// logger.addScreenCaptureFromPath(destFile);
+		
 
 	}
 

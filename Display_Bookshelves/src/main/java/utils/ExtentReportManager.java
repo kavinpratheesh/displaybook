@@ -7,11 +7,11 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class ExtentReportManager {
 	public static ExtentReports report;
 	
+@SuppressWarnings("deprecation")
 public static ExtentReports getReportInstance(){
 		
 		if(report == null){
 			String reportName = DateUtils.getTimeStamp() + ".html";
-			@SuppressWarnings("deprecation")
 			ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "//test-output//"+  reportName);
 			report =  new ExtentReports();
 			report.attachReporter(htmlReporter);
