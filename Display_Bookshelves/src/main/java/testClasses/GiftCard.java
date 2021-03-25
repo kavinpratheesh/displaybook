@@ -25,35 +25,17 @@ public class GiftCard extends BaseUI
 		
 		Thread.sleep(2000);
 		enterText("amount_Xpath","2000");
-		
-		Thread.sleep(2000);
 		mouseHoverAndSelect("month_drop_down_Xpath","Apr(2021)");
-		
-		Thread.sleep(2000);
-		mouseHoverAndSelect("date_drop_down_Xpath","3");
-		
-		Thread.sleep(2000);
+		mouseHoverAndSelect("date_drop_down_Xpath","14");
 		elementClick("click_on_next_Xpath");
-		
-		Thread.sleep(1000);
 		enterText("recipient_name_Xpath","Nagapriyadharsini");
-		
-		Thread.sleep(1000);
 		enterText("recipient_email_Xpath","Kavin");
-		
-		Thread.sleep(1000);
 		enterText("sender_name_Xpath","Gowtham");
-
-		Thread.sleep(1000);
 		enterText("sender_email_Xpath","priyadharshini@gmail.com");
-		
-		Thread.sleep(1000);
 		enterText("sender_phone_Xpath","9876543210");
-		
-		Thread.sleep(1000);
 		enterText("message_Xpath","Hello, Deepika and Naveena");
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		elementClick("confirm_Xpath");
 		Thread.sleep(2000);
 

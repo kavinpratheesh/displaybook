@@ -242,9 +242,7 @@ public class BaseUI {
 				driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 				takeScreenShotForValidation();
 				reportPass("Screenshot of the error message is captured Successfully");
-					
 			}
-
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}

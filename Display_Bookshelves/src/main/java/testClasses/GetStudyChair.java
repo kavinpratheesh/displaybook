@@ -12,7 +12,6 @@ public class GetStudyChair extends BaseUI
 	@Test
 	public void testForStudyChairs() throws Exception 
 	{
-		//driver.close();
 	   	logger = report.createTest("Test 3 :: Study Chairs");
 		invokeBrowser();											// Invoke the browser
 		openURL("websiteURL");											// Open Application
