@@ -241,9 +241,8 @@ public class BaseUI {
 			if (!getElement(validate_Xpath).isDisplayed()) {
 				driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 				takeScreenShotForValidation();
-				System.out.println("Screenshot taken");
-				//reportFail("Wrong information Fed-Up :: Verify The Details in attached ScreenShot");
-				
+				reportPass("Screenshot of the error message is captured Successfully");
+					
 			}
 
 		} catch (Exception e) {

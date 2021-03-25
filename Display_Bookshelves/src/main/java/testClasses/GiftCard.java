@@ -59,7 +59,7 @@ public class GiftCard extends BaseUI
 
 	    validateResult("validate_payment_Xpath");
 		
-	    System.out.println("Screenshot of the error message is taken");
+	    System.out.println("Screenshot of the error message is captured Successfully");
 		
 		quitBrowser();
 	}
